@@ -14,7 +14,6 @@ import {
   useColorModeValue,
   useBreakpointValue,
   useDisclosure,
-  Link,
   Image,
   Heading,
   HStack,
@@ -23,7 +22,7 @@ import {
 import { HamburgerIcon, MoonIcon, SunIcon, SearchIcon } from "@chakra-ui/icons";
 import Facebook from "./Facebook";
 import Twitter from "./Twitter";
-
+import Link from "next/link";
 
 export default function Navbar() {
   
@@ -44,9 +43,10 @@ export default function Navbar() {
           <Text style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'30px'} lineHeight='45px' >Panaverse</Text>
         </Flex>
         <HStack spacing={"6"}>
-          <Link href='#courses' style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'16px'} lineHeight='24px' >Courses</Link>
-          <Link href='/' style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'16px'} lineHeight='24px' >About</Link>
-          <Link href='/' style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'16px'} lineHeight='24px' >Careers</Link>
+          <Link href='/' style={{fontFamily:'Poppins',fontWeight:'700',fontSize:'16px',lineHeight:'24px'}}>Home</Link>
+          <Link href='/#courses' style={{fontFamily:'Poppins',fontWeight:'700',fontSize:'16px',lineHeight:'24px'}}>Courses</Link>
+          <Link href='/' style={{fontFamily:'Poppins',fontWeight:'700',fontSize:'16px',lineHeight:'24px'}}>About</Link>
+          <Link href='/' style={{fontFamily:'Poppins',fontWeight:'700',fontSize:'16px',lineHeight:'24px'}}>Careers</Link>
         </HStack>
         <Flex pr={"130px"}>
           <Button width={"fit-content"}  marginBottom={4} mr={2}>
