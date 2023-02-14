@@ -23,12 +23,14 @@ import { HamburgerIcon, MoonIcon, SunIcon, SearchIcon } from "@chakra-ui/icons";
 import Facebook from "./Facebook";
 import Twitter from "./Twitter";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Navbar() {
   
   const { toggleColorMode } = useColorMode();
   const formBackground = useColorModeValue("gray.200", "gray.700");
-
+  const router = useRouter();
+  
   return (
     <Box>
       <Flex justify={"space-between"} pt="51px">
@@ -49,12 +51,16 @@ export default function Navbar() {
           <Link href='/' style={{fontFamily:'Poppins',fontWeight:'700',fontSize:'16px',lineHeight:'24px'}}>Careers</Link>
         </HStack>
         <Flex pr={"130px"}>
+          <Link href='https://www.facebook.com/groups/panaverse'>
           <Button width={"fit-content"}  marginBottom={4} mr={2}>
             <Facebook />
           </Button>
+          </Link>
+          <Link href='https://twitter.com/Panaverse_edu'>
           <Button width={"fit-content"}  marginBottom={4} mr={2}>
             <Twitter />
           </Button>
+          </Link>
           <Button
             
             onClick={toggleColorMode}
