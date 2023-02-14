@@ -40,7 +40,7 @@ export default function Navbar() {
             height={"50"}
             pr={"5"}
           />
-          <Text style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'30px'} lineHeight='45px' >Panaverse</Text>
+          <Link href='/' style={{fontFamily:'Poppins',fontWeight:'700',fontSize:'30px',lineHeight:'45px',textDecoration:'none'}}>Panaverse</Link>
         </Flex>
         <HStack spacing={"6"}>
           <Link href='/' style={{fontFamily:'Poppins',fontWeight:'700',fontSize:'16px',lineHeight:'24px'}}>Home</Link>
