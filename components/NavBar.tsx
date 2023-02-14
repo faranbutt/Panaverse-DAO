@@ -44,12 +44,9 @@ export default function Navbar() {
           <Text style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'30px'} lineHeight='45px' >Panaverse</Text>
         </Flex>
         <HStack spacing={"6"}>
-          {/* <Link style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'16px'} lineHeight='24px' >Courses</Link>
-          <Link style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'16px'} lineHeight='24px' >About</Link>
-          <Link style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'16px'} lineHeight='24px' >Careers</Link> */}
-          <Link href='#courses'>Courses</Link>
-          <Link href='/'>About</Link>
-          <Link href='/'>Careers</Link>
+          <Link href='#courses' style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'16px'} lineHeight='24px' >Courses</Link>
+          <Link href='/' style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'16px'} lineHeight='24px' >About</Link>
+          <Link href='/' style={{fontFamily:'Poppins'}} fontWeight='700' fontSize={'16px'} lineHeight='24px' >Careers</Link>
         </HStack>
         <Flex pr={"130px"}>
           <Button width={"fit-content"}  marginBottom={4} mr={2}>
