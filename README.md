@@ -10,11 +10,11 @@
 * The interface is interactive due to Tailwind be interactive with some meaningfull colors. 🎨
 
 ## FrontEnd Deployed on Vercel:
-https://panaverse-ashy.vercel.app/
+https://panaverse-daoo.vercel.app
 
 ## To Run/Change this design:
 ```
-git clone https://github.com/faranbutt/Panaverse-Website2
+git clone https://github.com/faranbutt/Panaverse-DAO
 cd Panaverse-Website2
 npm install
 npm run dev
@@ -22,5 +22,6 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000/) with your browser to see the result.
 '''
 '''
+![Screenshot from 2023-03-24 17-23-26](https://github.com/faranbutt/Panaverse-DAO/blob/main/images/panaverse-daoo.vercel.app_.png)
 
 
