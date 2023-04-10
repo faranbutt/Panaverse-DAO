@@ -123,7 +123,7 @@ export default function Reviews() {
       </Box>
     </Box>
     <HStack p={{base: '20px', md: '100px'}} alignItems={{base: 'center', md: 'flex-start'}}>
-      <ImQuotesLeft size={{base: 50, md: 100}}/>
+      <ImQuotesLeft size={50}/>
       <Text textAlign={{base: 'center', md: 'left'}} fontSize={{base: 'sm', md: 'xl'}}>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque illum dolorem dolore dolores rerum, optio maxime, et placeat fugit, natus magnam quaerat doloremque deserunt aperiam eligendi quasi quas odio sint.
       </Text>
